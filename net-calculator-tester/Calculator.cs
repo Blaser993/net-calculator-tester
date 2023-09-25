@@ -8,24 +8,26 @@ namespace net_calculator_tester
 {
     public class Calculator
     {
-        float Add (float x, float y) 
+        public static float Add (float x, float y) 
         {
             return x + y;
         }
 
-        float Subtract(float x, float y) 
+        public static float Subtract(float x, float y) 
         {
             return x - y;
         }
 
-        float Multiply(float x, float y) 
+        public static float Multiply(float x, float y) 
         {
             return x * y;
         }
 
-        float Divide(float x, float y) 
+        public static float Divide(float x, float y) 
         {
             return x / y;
         }
+
+        Calculator () { }
     }
 }
